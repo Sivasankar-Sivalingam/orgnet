@@ -10,9 +10,9 @@
         "/orgnet/favicon.ico",
         "/orgnet/index.html",
         "/orgnet/inline.318b50c57b4eba3d437b.bundle.js",
-        "/orgnet/main.bb5683ba1b683ccd322a.bundle.js",
+        "/orgnet/main.8f7f2226227852abc424.bundle.js",
         "/orgnet/polyfills.23490afe3349284ca349.bundle.js",
-        "/orgnet/styles.ac89bfdd6de82636b768.bundle.css"
+        "/orgnet/styles.0744b9f6769c326ccd7f.bundle.css"
       ],
       "patterns": []
     },
@@ -22,8 +22,11 @@
       "updateMode": "prefetch",
       "urls": [
         "/orgnet/assets/icon-128x128.png",
+        "/orgnet/assets/icon-192x192.png",
         "/orgnet/assets/icon-256x256.png",
-        "/orgnet/assets/icon-512x512.png"
+        "/orgnet/assets/icon-49x49.png",
+        "/orgnet/assets/icon-512x512.png",
+        "/orgnet/assets/icon-95x95.png"
       ],
       "patterns": []
     }
@@ -31,13 +34,16 @@
   "dataGroups": [],
   "hashTable": {
     "/orgnet/inline.318b50c57b4eba3d437b.bundle.js": "998c6060446975e566fd17509558ddc68d72eec3",
-    "/orgnet/assets/icon-128x128.png": "99af992d86a50db0ae685c2c8da3a0af930bf87f",
-    "/orgnet/main.bb5683ba1b683ccd322a.bundle.js": "7e7876c1a7888d40bfc59b396fad14a03e6fc4f8",
-    "/orgnet/assets/icon-256x256.png": "1bb55945fa43fa8f7305b4b9024d6fc7bff3c173",
+    "/orgnet/assets/icon-128x128.png": "bd4613c47045b2f02452de4d39964e7c4a775272",
+    "/orgnet/main.8f7f2226227852abc424.bundle.js": "2094ef3f6c9c0a772b045af93b626be6d9d62d36",
+    "/orgnet/assets/icon-192x192.png": "c0f0aca59b56c8a4adb73726f4aab8545494209c",
     "/orgnet/polyfills.23490afe3349284ca349.bundle.js": "d0684b19443e2b069a76cad6b29a7f3c27a09fcc",
-    "/orgnet/assets/icon-512x512.png": "d0955a8c2c2033c9d6611910afe507e17588c0ae",
-    "/orgnet/styles.ac89bfdd6de82636b768.bundle.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
-    "/orgnet/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-    "/orgnet/index.html": "29625ad60ec02c494fc790c4a510cdb21be01dea"
+    "/orgnet/assets/icon-256x256.png": "1bb55945fa43fa8f7305b4b9024d6fc7bff3c173",
+    "/orgnet/styles.0744b9f6769c326ccd7f.bundle.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "/orgnet/assets/icon-49x49.png": "fca1e5a2feaa030cfc45aedad053d28f2848343e",
+    "/orgnet/favicon.ico": "907bd07bc41dbae30bd4facd02cf66a655af3d44",
+    "/orgnet/assets/icon-512x512.png": "00909e7a3c0950bb9832a547534f9ce31d513adb",
+    "/orgnet/index.html": "61dc76046fa0e0b63e0ee4d49760bbf003c4d637",
+    "/orgnet/assets/icon-95x95.png": "2de79e6bd71305ad01746f38bd337858b4237626"
   }
 }

@@ -1,10 +1,22 @@
 {
-  "name": "Progressive Web Cat",
+  "name": "Orgnet - Progressive Web App",
   "short_name": "Orgnet",
   "description": "A funny cat image generator",  
   "icons": [{
+    "src": "assets/icon-49x49.png",
+      "sizes": "49x49",
+      "type": "image/png"
+    }, {
+      "src": "assets/icon-95x95.png",
+      "sizes": "95x95",
+      "type": "image/png"
+    }, {
     "src": "assets/icon-128x128.png",
       "sizes": "128x128",
+      "type": "image/png"
+    }, {
+      "src": "assets/icon-192x192.png",
+      "sizes": "192x192",
       "type": "image/png"
     }, {
       "src": "assets/icon-256x256.png",

@@ -6,22 +6,78 @@
       margin-bottom: 40px;
     }
 
-    #loading {
+    .lds-grid {
       display: inline-block;
-      width: 50px;
-      height: 50px;
-      border: 3px solid #137b85;
+      position: relative;
+      width: 64px;
+      height: 64px;
+    }
+    .lds-grid div {
+      position: absolute;
+      width: 13px;
+      height: 13px;
       border-radius: 50%;
-      border-top-color: #137b85;
-      animation: spin 1s ease-in-out infinite;
-      -webkit-animation: spin 1s ease-in-out infinite;
-      background-color: #fff; 
-      color: #fff;
+      background: #000;
+      animation: lds-grid 1.2s linear infinite;
     }
-
-    @keyframes spin {
-      to { -webkit-transform: rotate(360deg); }
+    .lds-grid div:nth-child(1) {
+      top: 6px;
+      left: 6px;
+      animation-delay: 0s;
     }
-    @-webkit-keyframes spin {
-      to { -webkit-transform: rotate(360deg); }
-    }</style><link href="styles.ac89bfdd6de82636b768.bundle.css" rel="stylesheet"/></head><body><app-root><nav style="background-color: #673ab7; height: 56px; width: 100%"></nav><div id="loading"></div></app-root><script type="text/javascript" src="inline.318b50c57b4eba3d437b.bundle.js"></script><script type="text/javascript" src="polyfills.23490afe3349284ca349.bundle.js"></script><script type="text/javascript" src="main.bb5683ba1b683ccd322a.bundle.js"></script></body><noscript><h3 style="color: #673ab7; font-family: Helvetica; margin: 2rem;">Sorry, but app is not available without javascript</h3></noscript></html>
+    .lds-grid div:nth-child(2) {
+      top: 6px;
+      left: 26px;
+      animation-delay: -0.4s;
+    }
+    .lds-grid div:nth-child(3) {
+      top: 6px;
+      left: 45px;
+      animation-delay: -0.8s;
+    }
+    .lds-grid div:nth-child(4) {
+      top: 26px;
+      left: 6px;
+      animation-delay: -0.4s;
+    }
+    .lds-grid div:nth-child(5) {
+      top: 26px;
+      left: 26px;
+      animation-delay: -0.8s;
+    }
+    .lds-grid div:nth-child(6) {
+      top: 26px;
+      left: 45px;
+      animation-delay: -1.2s;
+    }
+    .lds-grid div:nth-child(7) {
+      top: 45px;
+      left: 6px;
+      animation-delay: -0.8s;
+    }
+    .lds-grid div:nth-child(8) {
+      top: 45px;
+      left: 26px;
+      animation-delay: -1.2s;
+    }
+    .lds-grid div:nth-child(9) {
+      top: 45px;
+      left: 45px;
+      animation-delay: -1.6s;
+    }
+    @keyframes lds-grid {
+      0%, 100% {
+        opacity: 1;
+      }
+      50% {
+        opacity: 0.5;
+      }
+    }</style><link href="styles.0744b9f6769c326ccd7f.bundle.css" rel="stylesheet"/></head><body><app-root><div id="loading"><div class="lds-grid"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div></app-root><script type="text/javascript" src="inline.318b50c57b4eba3d437b.bundle.js"></script><script type="text/javascript" src="polyfills.23490afe3349284ca349.bundle.js"></script><script type="text/javascript" src="main.8f7f2226227852abc424.bundle.js"></script></body><noscript><h3 style="color: #673ab7; font-family: Helvetica; margin: 2rem;">Sorry, but app is not available without javascript</h3></noscript><script>if ('serviceWorker' in navigator) {
+      console.log("Will the service worker register?");
+      navigator.serviceWorker.register('service-worker.js')
+        .then(function(reg){
+          console.log("Yes, it did.");
+        }).catch(function(err) {
+          console.log("No it didn't. This happened: ", err)
+        });
+    }</script></html>
